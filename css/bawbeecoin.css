@@ -1,0 +1,139 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+blockquote {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+section {
+    padding: 100px 0;
+}
+
+label {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: #192143;
+    padding: 100px 0;
+}
+
+header h1, header h3, header h5 {
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+header h3 {
+    font-size: 2.6rem;
+}
+
+
+/* BAWBEE */
+section.bawbee {
+    background-color: #304080;
+}
+
+section.bawbee img {
+    margin-bottom: 40px;
+}
+
+
+/* POLITICS */
+section.politics {
+    background-color: #008000;
+}
+
+section.politics img {
+    border: 12px #ffffff solid;
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 14px;
+}
+
+
+/* SALMOND */
+section.salmond {
+    background-color: #c00000;
+}
+
+section.salmond img {
+    border: 12px #304080 solid;
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    margin-right: 60px;
+    margin-top: -35px;
+}
+
+section.salmond p {
+    padding-top: 35px;
+}
+
+
+/* BAWBEECOIN */
+section.bawbeecoin,
+section.bawbeecoin a,
+section.bawbeecoin h2 {
+    color: #192143;
+}
+
+
+/* SIGNUP */
+section.signup {
+    background-color: #304080;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #192143;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* HORIZONTAL RULES */
+div.split {
+    margin: 0;
+    height: 16px;
+    width: 100%;
+}
+
+div.split.red {
+    background: url('../img/rule_red.png') repeat-x;
+}
+
+div.split.white {
+    background: url('../img/rule_white.png') repeat-x;
+}
+
+div.split.green {
+    background: url('../img/rule_green.png') repeat-x;
+}
