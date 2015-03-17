@@ -1,11 +1,11 @@
 body {
     font-family: 'Sintony', sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Averia Sans Libre', cursive;
-    color: #ffffff;
+    color: #000000;
 }
 
 p {
@@ -13,8 +13,13 @@ p {
 }
 
 a, a:hover {
-    color: #ffffff;
+    color: #000000;
     text-decoration: underline;
+}
+
+ul {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 blockquote {
@@ -33,89 +38,69 @@ label {
     margin-bottom: 6px;
 }
 
+button, .button {
+    background-color: #f9a239;
+}
+
+button:hover, button:focus,
+.button:hover, .button:focus {
+    background-color: #e77e00;
+}
+
 
 /* HEADER */
 header {
     width: 100%;
-    background-color: #192143;
-    padding: 100px 0;
+    background-color: #ffffff;
+    padding: 90px 0;
 }
 
 header h1, header h3, header h5 {
-    color: #ffffff;
+    color: #000000;
 }
 
 header h1 {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
-header h3 {
-    font-size: 2.6rem;
-}
-
-
-/* BAWBEE */
-section.bawbee {
-    background-color: #304080;
-}
-
-section.bawbee img {
-    margin-bottom: 40px;
+header h2 {
+    font-size: 3rem;
+    color: #f9a239;
 }
 
 
-/* POLITICS */
-section.politics {
-    background-color: #008000;
+/* BAWBAG */
+section.bawbag {
+    background-color: #dddddd;
 }
 
-section.politics img {
-    border: 12px #ffffff solid;
-    border-radius: 200px;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 14px;
+section.bawbag .downloads {
+    margin-top: 30px;
 }
 
 
-/* SALMOND */
-section.salmond {
-    background-color: #c00000;
+/* MINING */
+section.mining {
+    background-color: #f9a239;
 }
 
-section.salmond img {
-    border: 12px #304080 solid;
-    border-radius: 200px;
-    width: 250px;
-    height: 250px;
-    margin-right: 60px;
-    margin-top: -35px;
-}
-
-section.salmond p {
-    padding-top: 35px;
+section.mining h2 {
+    color: #ffffff;
 }
 
 
 /* BAWBEECOIN */
-section.bawbeecoin,
-section.bawbeecoin a,
+section.bawbeecoin {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 section.bawbeecoin h2 {
-    color: #192143;
+    color: #f9a239;
 }
 
-
-/* SIGNUP */
-section.signup {
-    background-color: #304080;
-}
-
-
-/* FOOTER */
-footer {
-    background-color: #192143;
-    text-align: center;
-    padding: 50px;
+section.bawbeecoin a {
+    color: #ffffff;
 }
 
 
@@ -126,14 +111,14 @@ div.split {
     width: 100%;
 }
 
-div.split.red {
-    background: url('../img/rule_red.png') repeat-x;
+div.split.white_grey {
+    background: url('../img/rule_white_grey.png') repeat-x;
 }
 
-div.split.white {
-    background: url('../img/rule_white.png') repeat-x;
+div.split.grey_orange {
+    background: url('../img/rule_grey_orange.png') repeat-x;
 }
 
-div.split.green {
-    background: url('../img/rule_green.png') repeat-x;
+div.split.orange_black {
+    background: url('../img/rule_orange_black.png') repeat-x;
 }
