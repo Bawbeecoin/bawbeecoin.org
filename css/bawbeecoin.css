@@ -103,6 +103,11 @@ section.bawbeecoin a {
     color: #ffffff;
 }
 
+section.bawbeecoin em {
+    font-style: normal;
+    text-decoration: underline dotted;
+}
+
 
 /* HORIZONTAL RULES */
 div.split {
